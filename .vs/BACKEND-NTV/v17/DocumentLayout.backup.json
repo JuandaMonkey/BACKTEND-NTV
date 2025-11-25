@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\NTV\\BACKEND-NTV\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|c:\\ntv\\backend-ntv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|c:\\ntv\\backend-ntv\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|c:\\ntv\\backend-ntv\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|c:\\ntv\\backend-ntv\\backend-ntv.data\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|solutionrelative:backend-ntv.data\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +23,12 @@
       "RelativeMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|solutionrelative:backend-ntv.data\\postgresqlconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|c:\\ntv\\backend-ntv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|c:\\ntv\\backend-ntv\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|c:\\ntv\\backend-ntv\\backend-ntv.data\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|solutionrelative:backend-ntv.data\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|c:\\ntv\\backend-ntv\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +46,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\NTV\\BACKEND-NTV\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-25T17:07:07.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\NTV\\BACKEND-NTV\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T02:59:45.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -63,25 +80,24 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T03:02:18.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T03:02:18.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AuthRepository.cs",
               "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DATA\\Repositories\\AuthRepository.cs",
               "RelativeDocumentMoniker": "BACKEND-NTV.DATA\\Repositories\\AuthRepository.cs",
               "ToolTip": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DATA\\Repositories\\AuthRepository.cs",
               "RelativeToolTip": "BACKEND-NTV.DATA\\Repositories\\AuthRepository.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwAMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T02:35:11.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PostgreSQLConfiguration.cs",
               "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DATA\\PostgreSQLConfiguration.cs",
               "RelativeDocumentMoniker": "BACKEND-NTV.DATA\\PostgreSQLConfiguration.cs",
@@ -89,12 +105,11 @@
               "RelativeToolTip": "BACKEND-NTV.DATA\\PostgreSQLConfiguration.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAIwCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T03:40:33.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T03:40:33.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IAuthRepository.cs",
               "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DATA\\Interfaces\\IAuthRepository.cs",
               "RelativeDocumentMoniker": "BACKEND-NTV.DATA\\Interfaces\\IAuthRepository.cs",
@@ -102,18 +117,17 @@
               "RelativeToolTip": "BACKEND-NTV.DATA\\Interfaces\\IAuthRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:04:06.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:04:06.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\NTV\\BACKEND-NTV\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwCoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-25T04:01:44.464Z",
               "EditorCaption": ""

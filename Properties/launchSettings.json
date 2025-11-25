@@ -5,7 +5,7 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNNETCORE_ENVIRONMENT": "Development",
+        "ASPNNETCORE_ENVIRONMENT": "Production",
         "CONNECTION_STRING": "Server=ep-shiny-cherry-a4p58r14-pooler.us-east-1.aws.neon.tech;Port=5432;Database=NTV;User Id=neondb_owner;Password=npg_Kw3GigsUS9fz;Ssl Mode=Require;Channel Binding=Require;"
       },
       "dotnetRunMessages": true,
@@ -16,7 +16,7 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_ENVIRONMENT": "Production",
         "CONNECTION_STRING": "Server=ep-shiny-cherry-a4p58r14-pooler.us-east-1.aws.neon.tech;Port=5432;Database=NTV;User Id=neondb_owner;Password=npg_Kw3GigsUS9fz;Ssl Mode=Require;Channel Binding=Require;"
       },
       "dotnetRunMessages": true,
@@ -26,7 +26,7 @@
       "commandName": "IISExpress",
       "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_ENVIRONMENT": "Production",
         "ALLOWED_ORIGIN": "http://localhost:5163",
         "CONNECTION_STRING": "Server=ep-shiny-cherry-a4p58r14-pooler.us-east-1.aws.neon.tech;Port=5432;Database=NTV;User Id=neondb_owner;Password=npg_Kw3GigsUS9fz;Ssl Mode=Require;Channel Binding=Require;"
       }

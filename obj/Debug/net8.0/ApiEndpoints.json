@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "BACKEND_NTV.Controllers.AuthController",
+    "Method": "getUsuarios",
+    "RelativePath": "api/Auth/Listar-Usuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

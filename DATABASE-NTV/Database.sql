@@ -68,32 +68,23 @@ create table cortometraje_categoria (
 -- =============================
 
 -- =============================
--- Insert: Roles
+-- Tabla: continuar_viendo
 -- =============================
-insert into rol (nombre) values 
-('admin'),
-('usuario');
+create table continuar_viedno (
+    idContinuar serial primary key,
+    fk_idUsuario int not null,
+    fk_idCortometraje int not null,
+    minutoVisto int,
+    segundoVisto int,
+    fechaUltimaVez timestamp,
 
-select * from public.rol;
+    constraint fk_cc_usuario
+        foreign key (fk_idUsuario)
+        references usuario(idUsuario)
+        on delete cascade,
 
--- =============================
--- Insert: Usuarios
--- =============================
-insert into usuario (nombre, correo, contrasena, fk_idRol)
-values (
-    'admin', 
-    'admin@correo.com', 
-    'contrasena1234',
-    1
+    constraint fk_cc_cortometraje
+        foreign key (fk_idCortometraje)
+        references cortometraje(idCortometraje)
+        on delete set null
 );
-
-select u.idUsuario,
-       u.nombre, 
-       u.correo,   
-       r.nombre as rol
-from usuario as u
-join rol as r
-on u.fk_idRol = r.idRol;
-
-select *
-from usuario as u

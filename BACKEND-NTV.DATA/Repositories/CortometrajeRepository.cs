@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using BACKEND_NTV.DTOs.Cortometraje;
 using BACKEND_NTV.DATA.Filters;
 using System.Reflection.Metadata;
+using NpgsqlTypes;
 
 namespace BACKEND_NTV.DATA.Repositories
 {
@@ -32,7 +33,7 @@ namespace BACKEND_NTV.DATA.Repositories
         #endregion
 
         #region GetCortometrajes
-        public async Task<CortometrajeResultDTO> GetCortometrajes(CortometrajeFilter filters)
+        public async Task<CortometrajesResultDTO> GetCortometrajes(CortometrajeFilter filters)
         {
             try
             {
@@ -76,26 +77,240 @@ namespace BACKEND_NTV.DATA.Repositories
                     sqlTotal,
                     sqlParams);
 
-                return new CortometrajeResultDTO
+                return new CortometrajesResultDTO
                 {
+                    Exito = true,
+                    Mensaje = "Cortometrajes obtenidos correctamente.",
                     Data = data,
                     Total = total
                 };
             }
-            catch (NpgsqlException)
+            catch (Exception ex)
             {
-                Console.Error.WriteLine("Error de base de datos.");
-                throw;
+                return new CortometrajesResultDTO
+                {
+                    Exito = false,
+                    Mensaje = "Error al obtener cortometrajes: " + ex.Message,
+                    Data = new List<CortometrajeDTO>(),
+                    Total = 0
+                };
             }
-            catch (TimeoutException)
+        }
+        #endregion
+
+        #region GetCortometrajeById
+        public async Task<CortometrajeResultDTO> GetCortometrajeById(int idCortometraje)
+        {
+            try
             {
-                Console.Error.WriteLine("Timeout al consultar la base de datos.");
-                throw;
+                await using var database = DbConnection();
+                await database.OpenAsync();
+
+                var sqlQuery = @"select * from f_get_cortometraje_by_id(@IdCortometraje);";
+
+                var sqlParams = new
+                {
+                    IdCortometraje = idCortometraje
+                };
+
+                var data = (await database.QueryAsync<CortometrajeDTO>(
+                    sqlQuery,
+                    sqlParams)).FirstOrDefault();
+
+                if (data == null)
+                {
+                    return new CortometrajeResultDTO
+                    {
+                        Exito = false,
+                        Mensaje = "No se encontró el cortometraje solicitado.",
+                        Data = null
+                    };
+                }
+
+                return new CortometrajeResultDTO
+                {
+                    Exito = true,
+                    Mensaje = "Cortometraje obtenido correctamente.",
+                    Data = data
+                };
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                Console.Error.WriteLine("Ha ocurrido un error inesperado.");
-                throw;
+                return new CortometrajeResultDTO
+                {
+                    Exito = false,
+                    Mensaje = "Error al obtener cortometraje: " + ex.Message,
+                    Data = null
+                };
+            }
+        }
+        #endregion
+
+        #region PostCortometraje
+        public async Task<CortometrajeResultDTO> PostCortometraje(CortometrajeCreateDTO cortometraje)
+        {
+            try
+            {
+                await using var database = DbConnection();
+                await database.OpenAsync();
+
+                var sqlQuery = @"
+                select f_post_cortometraje(
+                    @Titulo,
+                    @Autor,
+                    @Descripcion,
+                    @UrlVideo,
+                    @UrlPortada,
+                    @DuracionMinutos,
+                    @DuracionSegundos,
+                    @AnioLanzamiento,
+                    @Estado,
+                    @Categorias);";
+
+                var sqlParams = new DynamicParameters();
+
+                sqlParams.Add("@Titulo", cortometraje.Titulo);
+                sqlParams.Add("@Autor", cortometraje.Autor);
+                sqlParams.Add("@Descripcion", cortometraje.Descripcion);
+                sqlParams.Add("@UrlVideo", cortometraje.UrlVideo);
+                sqlParams.Add("@UrlPortada", cortometraje.UrlPortada);
+                sqlParams.Add("@DuracionMinutos", cortometraje.DuracionMinutos);
+                sqlParams.Add("@DuracionSegundos", cortometraje.DuracionSegundos);
+                sqlParams.Add("@AnioLanzamiento", cortometraje.AnioLanzamiento);
+                sqlParams.Add("@Estado", cortometraje.Estado);
+                sqlParams.Add("@Categorias", cortometraje.Categorias.ToArray());
+
+
+                var newId = (await database.QueryAsync<int>(
+                    sqlQuery,
+                    sqlParams)).First();
+
+                var result = await GetCortometrajeById(newId);
+
+                result.Mensaje = "Cortometraje agregado correctamente.";
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+                return new CortometrajeResultDTO
+                {
+                    Exito = false,
+                    Mensaje = "Error al agregar cortometraje: " + ex.Message,
+                    Data = null
+                };
+            }
+        }
+        #endregion
+
+        #region PutCortometraje
+        public async Task<CortometrajeResultDTO> PutCortometraje(
+            int idCortometraje,
+            CortometrajeUpdateDTO cortometrajeUpdate,
+            CortometrajeCategoriasUpdateDTO categoriaUpdate)
+        {
+            try
+            {
+                await using var database = DbConnection();
+                await database.OpenAsync();
+
+                var sqlQuery = @"
+                select f_put_cortometraje(
+                    @IdCortometraje,
+                    @Titulo,
+                    @Autor,
+                    @Descripcion,
+                    @UrlVideo,
+                    @UrlPortada,
+                    @DuracionMinutos,
+                    @DuracionSegundos,
+                    @AnioLanzamiento,
+                    @Estado);";
+
+                var sqlParams = new DynamicParameters();
+
+                sqlParams.Add("@IdCortometraje", idCortometraje);
+                sqlParams.Add("@Titulo", cortometrajeUpdate.Titulo);
+                sqlParams.Add("@Autor", cortometrajeUpdate.Autor);
+                sqlParams.Add("@Descripcion", cortometrajeUpdate.Descripcion);
+                sqlParams.Add("@UrlVideo", cortometrajeUpdate.UrlVideo);
+                sqlParams.Add("@UrlPortada", cortometrajeUpdate.UrlPortada);
+                sqlParams.Add("@DuracionMinutos", cortometrajeUpdate.DuracionMinutos);
+                sqlParams.Add("@DuracionSegundos", cortometrajeUpdate.DuracionSegundos);
+                sqlParams.Add("@AnioLanzamiento", cortometrajeUpdate.AnioLanzamiento);
+                sqlParams.Add("@Estado", cortometrajeUpdate.Estado);
+
+                if (categoriaUpdate?.Categorias != null)
+                {
+                    var sqlQuery2 = @"
+                    select f_put_categorias_cortometraje(
+                        @IdCortometraje,
+                        @Categorias);";
+
+                    var sqlParams2 = new DynamicParameters();
+
+                    sqlParams2.Add("@IdCortometraje", idCortometraje);
+                    sqlParams2.Add("@Categorias", categoriaUpdate.Categorias.ToArray());
+
+                    await database.QueryAsync(
+                    sqlQuery2,
+                    sqlParams2);
+                }
+
+                await database.QueryAsync<int>(sqlQuery, sqlParams);
+
+                var result = await GetCortometrajeById(idCortometraje);
+
+                result.Mensaje = "Cortometraje actualizado correctamente.";
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+                return new CortometrajeResultDTO
+                {
+                    Exito = false,
+                    Mensaje = "Error al actualizar cortometraje: " + ex.Message,
+                    Data = null
+                };
+            }
+        }
+        #endregion
+
+        #region DeleteCortometraje
+        public async Task<CortometrajeResultDTO> DeleteCortometraje(int idCortometraje)
+        {
+            try
+            {
+                await using var database = DbConnection();
+                await database.OpenAsync();
+
+                var sqlQuery = @"select f_delete_cortometraje(@IdCortometraje);";
+
+                var sqlParams = new
+                {
+                    IdCortometraje = idCortometraje
+                };
+
+                await database.QueryAsync(
+                    sqlQuery,
+                    sqlParams);
+
+                return new CortometrajeResultDTO
+                {
+                    Exito = true,
+                    Mensaje = "Cortometraje eliminado correctamente.",
+                    Data = null
+                };
+            }
+            catch (Exception ex)
+            {
+                return new CortometrajeResultDTO
+                {
+                    Exito = false,
+                    Mensaje = "Error al eliminar cortometraje: " + ex.Message,
+                    Data = null
+                };
             }
         }
         #endregion

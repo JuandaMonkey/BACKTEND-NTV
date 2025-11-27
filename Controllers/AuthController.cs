@@ -12,19 +12,5 @@ namespace BACKEND_NTV.Controllers
 
         public AuthController(IAuthRepository authRepository) => _authRepository = authRepository;
         #endregion
-
-        [HttpGet("Listar-Usuarios")]
-        public async Task<IActionResult> getUsuarios()
-        {
-            try
-            {
-                var data = await _authRepository.getUsuarios();
-                return Ok(new { data });
-            }
-            catch (ArgumentException ex)
-            {
-                return BadRequest(ex);
-            }
-        }
     }
 }

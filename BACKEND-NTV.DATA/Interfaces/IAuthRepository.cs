@@ -10,6 +10,5 @@ namespace BACKEND_NTV.DATA.Interfaces
 {
     public interface IAuthRepository
     {
-        public Task<IEnumerable<UsuarioModel>> getUsuarios();
     }
 }

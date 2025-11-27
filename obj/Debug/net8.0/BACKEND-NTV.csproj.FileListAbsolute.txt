@@ -41,3 +41,5 @@ C:\NTV\BACKEND-NTV\obj\Debug\net8.0\BACKEND-NTV.genruntimeconfig.cache
 C:\NTV\BACKEND-NTV\obj\Debug\net8.0\ref\BACKEND-NTV.dll
 C:\NTV\BACKEND-NTV\bin\Debug\net8.0\Dapper.dll
 C:\NTV\BACKEND-NTV\obj\Debug\net8.0\BACKEND-NTV.sourcelink.json
+C:\NTV\BACKEND-NTV\bin\Debug\net8.0\BACKEND-NTV.DATA\obj\Debug\net8.0\BACKEND-NTV.DATA.sourcelink.json
+C:\NTV\BACKEND-NTV\bin\Debug\net8.0\BACKEND-NTV.DTOs\obj\Debug\net8.0\BACKEND-NTV.DTOs.sourcelink.json

@@ -23,30 +23,5 @@ namespace BACKEND_NTV.DATA.Repositories
             return _connection.GetConnection();
         }
         #endregion
-
-        #region Ejemplo Jalando HAAAY MAMAAAAA
-        public async Task<IEnumerable<UsuarioModel>> getUsuarios()
-        {
-            var usuarios = new List<UsuarioModel>();
-
-            try
-            {
-                await using var database = DbConnection();
-                await database.OpenAsync();
-
-                string sqlQuery = @"select * from public.usuario;";
-
-                var resutl = (await database.QueryAsync<UsuarioModel>(
-                    sqlQuery)).ToList();
-
-                return resutl;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error al obtener usuarios." + ex);
-            }
-            return usuarios;
-        }
-        #endregion
     }
 }

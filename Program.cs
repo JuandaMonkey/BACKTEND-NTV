@@ -19,9 +19,11 @@ namespace BACKEND_NTV
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            // Repositories 
             builder.Services.AddScoped<PostgreSQLConnection>();
+
+            // Repositories 
             builder.Services.AddScoped<IAuthRepository, AuthRepository>();
+            builder.Services.AddScoped<ICortometrajeRepository, CortometrajeRepository>();
 
             var app = builder.Build();
 

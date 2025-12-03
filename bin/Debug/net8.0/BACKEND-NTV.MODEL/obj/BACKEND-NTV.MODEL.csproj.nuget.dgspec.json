@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.MODEL\\BACKEND-NTV.MODEL.csproj": {}
+    "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.MODEL\\BACKEND-NTV.MODEL.csproj": {}
   },
   "projects": {
-    "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.MODEL\\BACKEND-NTV.MODEL.csproj": {
+    "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.MODEL\\BACKEND-NTV.MODEL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.MODEL\\BACKEND-NTV.MODEL.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.MODEL\\BACKEND-NTV.MODEL.csproj",
         "projectName": "BACKEND-NTV.MODEL",
-        "projectPath": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.MODEL\\BACKEND-NTV.MODEL.csproj",
-        "packagesPath": "C:\\Users\\juand\\.nuget\\packages\\",
-        "outputPath": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.MODEL\\obj\\",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.MODEL\\BACKEND-NTV.MODEL.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.MODEL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\juand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -65,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

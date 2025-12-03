@@ -8,3 +8,13 @@ C:\NTV\BACKEND-NTV\BACKEND-NTV.DTOs\obj\Debug\net8.0\refint\BACKEND-NTV.DTOs.dll
 C:\NTV\BACKEND-NTV\BACKEND-NTV.DTOs\obj\Debug\net8.0\BACKEND-NTV.DTOs.pdb
 C:\NTV\BACKEND-NTV\BACKEND-NTV.DTOs\obj\Debug\net8.0\ref\BACKEND-NTV.DTOs.dll
 C:\NTV\BACKEND-NTV\BACKEND-NTV.DTOs\obj\Debug\net8.0\BACKEND-NTV.DTOs.sourcelink.json
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.DTOs\bin\Debug\net8.0\BACKEND-NTV.DTOs.deps.json
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.DTOs\bin\Debug\net8.0\BACKEND-NTV.DTOs.dll
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.DTOs\bin\Debug\net8.0\BACKEND-NTV.DTOs.pdb
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.DTOs\obj\Debug\net8.0\BACKEND-NTV.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.DTOs\obj\Debug\net8.0\BACKEND-NTV.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.DTOs\obj\Debug\net8.0\BACKEND-NTV.DTOs.sourcelink.json
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.DTOs\obj\Debug\net8.0\BACKEND-NTV.DTOs.dll
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.DTOs\obj\Debug\net8.0\refint\BACKEND-NTV.DTOs.dll
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.DTOs\obj\Debug\net8.0\BACKEND-NTV.DTOs.pdb
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.DTOs\obj\Debug\net8.0\ref\BACKEND-NTV.DTOs.dll

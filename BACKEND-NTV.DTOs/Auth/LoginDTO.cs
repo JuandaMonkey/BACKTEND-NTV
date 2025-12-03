@@ -7,14 +7,20 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BACKEND_NTV.DTOs.Auth
 {
-    public class LoginDTO
+    public class LoginDto
     {
-        [Required(ErrorMessage = "El correo es obligatorio.")]
-        [EmailAddress(ErrorMessage = "El correo no tiene un formato válido.")]
-        [StringLength(150, ErrorMessage = "El correo no puede superar los 150 caracteres.")]
-        public string? Correo { get; set; }
-
-        [Required(ErrorMessage = "La contraseña es obligatoria.")]
-        public string? Contrasena { get; set; }
+        public string Correo { get; set; }
+        public string Contrasena { get; set; }
     }
+
+    public class LoginResponseDto
+    {
+        public int IdUsuario { get; set; }
+        public string Nombre { get; set; }
+        public string Correo { get; set; }
+        public string Rol { get; set; }
+        public string Token { get; set; }
+        public DateTime Expiracion { get; set; }
+    }
+
 }

@@ -7,3 +7,13 @@ C:\NTV\BACKEND-NTV\BACKEND-NTV.MODEL\obj\Debug\net8.0\BACKEND-NTV.MODEL.dll
 C:\NTV\BACKEND-NTV\BACKEND-NTV.MODEL\obj\Debug\net8.0\refint\BACKEND-NTV.MODEL.dll
 C:\NTV\BACKEND-NTV\BACKEND-NTV.MODEL\obj\Debug\net8.0\BACKEND-NTV.MODEL.pdb
 C:\NTV\BACKEND-NTV\BACKEND-NTV.MODEL\obj\Debug\net8.0\ref\BACKEND-NTV.MODEL.dll
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.MODEL\bin\Debug\net8.0\BACKEND-NTV.MODEL.deps.json
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.MODEL\bin\Debug\net8.0\BACKEND-NTV.MODEL.dll
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.MODEL\bin\Debug\net8.0\BACKEND-NTV.MODEL.pdb
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.MODEL\obj\Debug\net8.0\BACKEND-NTV.MODEL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.MODEL\obj\Debug\net8.0\BACKEND-NTV.MODEL.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.MODEL\obj\Debug\net8.0\BACKEND-NTV.MODEL.sourcelink.json
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.MODEL\obj\Debug\net8.0\BACKEND-NTV.MODEL.dll
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.MODEL\obj\Debug\net8.0\refint\BACKEND-NTV.MODEL.dll
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.MODEL\obj\Debug\net8.0\BACKEND-NTV.MODEL.pdb
+C:\Users\carlo\OneDrive\Desktop\BACKEND-NAKISTV\BACKEND-NTV.MODEL\obj\Debug\net8.0\ref\BACKEND-NTV.MODEL.dll

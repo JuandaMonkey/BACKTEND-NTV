@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "I2fuDfik5Lf7FBUoHokpofXv8VpszWBFhZmshuRay8k=",
-  "Source": "BACKEND-NTV",
-  "BasePath": "_content/BACKEND-NTV",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"/WXHT/Q5wdM3D88JONrNYfTFfjtOCSR6qRG5YLU0/ks=","Source":"BACKEND-NTV","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

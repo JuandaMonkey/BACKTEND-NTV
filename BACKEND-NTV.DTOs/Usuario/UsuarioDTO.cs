@@ -8,7 +8,7 @@ namespace BACKEND_NTV.DTOs.Usuario
 {
     public class UsuarioDTO
     {
-        public int IdUsuario { get; set; }
+        public int idusuario { get; set; }
         public string? Nombre { get; set; }
         public string? Correo { get; set; }
         public string? Rol { get; set; }

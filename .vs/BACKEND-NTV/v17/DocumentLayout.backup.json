@@ -1,41 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\NTV\\BACKEND-NTV\\",
+  "WorkspaceRootPath": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|c:\\ntv\\backend-ntv\\backend-ntv.data\\repositories\\cortometrajerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|c:\\users\\carlo\\onedrive\\desktop\\backend-nakistv\\backend-ntv.data\\repositories\\cortometrajerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|solutionrelative:backend-ntv.data\\repositories\\cortometrajerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|c:\\ntv\\backend-ntv\\backend-ntv.data\\filters\\cortometrajefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|solutionrelative:backend-ntv.data\\filters\\cortometrajefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|c:\\ntv\\backend-ntv\\backend-ntv.data\\interfaces\\icortometrajerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|solutionrelative:backend-ntv.data\\interfaces\\icortometrajerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E5793CB-425E-4289-9345-49038E2D5306}|BACKEND-NTV.DTOs\\BACKEND-NTV.DTOs.csproj|c:\\ntv\\backend-ntv\\backend-ntv.dtos\\cortometraje\\cortometrajeresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E5793CB-425E-4289-9345-49038E2D5306}|BACKEND-NTV.DTOs\\BACKEND-NTV.DTOs.csproj|solutionrelative:backend-ntv.dtos\\cortometraje\\cortometrajeresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E5793CB-425E-4289-9345-49038E2D5306}|BACKEND-NTV.DTOs\\BACKEND-NTV.DTOs.csproj|c:\\ntv\\backend-ntv\\backend-ntv.dtos\\cortometraje\\cortometrajedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E5793CB-425E-4289-9345-49038E2D5306}|BACKEND-NTV.DTOs\\BACKEND-NTV.DTOs.csproj|solutionrelative:backend-ntv.dtos\\cortometraje\\cortometrajedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|c:\\ntv\\backend-ntv\\controllers\\cortometrajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|solutionrelative:controllers\\cortometrajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|c:\\ntv\\backend-ntv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|c:\\users\\carlo\\onedrive\\desktop\\backend-nakistv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|c:\\ntv\\backend-ntv\\backend-ntv.data\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|solutionrelative:backend-ntv.data\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E5793CB-425E-4289-9345-49038E2D5306}|BACKEND-NTV.DTOs\\BACKEND-NTV.DTOs.csproj|c:\\users\\carlo\\onedrive\\desktop\\backend-nakistv\\backend-ntv.dtos\\cortometraje\\cortometrajedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5793CB-425E-4289-9345-49038E2D5306}|BACKEND-NTV.DTOs\\BACKEND-NTV.DTOs.csproj|solutionrelative:backend-ntv.dtos\\cortometraje\\cortometrajedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|c:\\ntv\\backend-ntv\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{1E5793CB-425E-4289-9345-49038E2D5306}|BACKEND-NTV.DTOs\\BACKEND-NTV.DTOs.csproj|c:\\users\\carlo\\onedrive\\desktop\\backend-nakistv\\backend-ntv.dtos\\cortometraje\\cortometrajeresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5793CB-425E-4289-9345-49038E2D5306}|BACKEND-NTV.DTOs\\BACKEND-NTV.DTOs.csproj|solutionrelative:backend-ntv.dtos\\cortometraje\\cortometrajeresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|c:\\users\\carlo\\onedrive\\desktop\\backend-nakistv\\backend-ntv.data\\interfaces\\icortometrajerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|solutionrelative:backend-ntv.data\\interfaces\\icortometrajerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|c:\\users\\carlo\\onedrive\\desktop\\backend-nakistv\\controllers\\cortometrajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|solutionrelative:controllers\\cortometrajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|c:\\users\\carlo\\onedrive\\desktop\\backend-nakistv\\backend-ntv.data\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|solutionrelative:backend-ntv.data\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|c:\\users\\carlo\\onedrive\\desktop\\backend-nakistv\\backend-ntv.data\\filters\\cortometrajefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|solutionrelative:backend-ntv.data\\filters\\cortometrajefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|c:\\users\\carlo\\onedrive\\desktop\\backend-nakistv\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -49,120 +49,109 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DATA\\Repositories\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "BACKEND-NTV.DATA\\Repositories\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DATA\\Repositories\\AuthRepository.cs",
+              "RelativeToolTip": "BACKEND-NTV.DATA\\Repositories\\AuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T02:01:54.254Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "CortometrajeController.cs",
-              "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\Controllers\\CortometrajeController.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\Controllers\\CortometrajeController.cs",
               "RelativeDocumentMoniker": "Controllers\\CortometrajeController.cs",
-              "ToolTip": "C:\\NTV\\BACKEND-NTV\\Controllers\\CortometrajeController.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\Controllers\\CortometrajeController.cs",
               "RelativeToolTip": "Controllers\\CortometrajeController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwBwAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T01:17:41.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T01:17:41.317Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CortometrajeRepository.cs",
-              "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DATA\\Repositories\\CortometrajeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DATA\\Repositories\\CortometrajeRepository.cs",
               "RelativeDocumentMoniker": "BACKEND-NTV.DATA\\Repositories\\CortometrajeRepository.cs",
-              "ToolTip": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DATA\\Repositories\\CortometrajeRepository.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DATA\\Repositories\\CortometrajeRepository.cs",
               "RelativeToolTip": "BACKEND-NTV.DATA\\Repositories\\CortometrajeRepository.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwD4AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T00:34:41.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ICortometrajeRepository.cs",
-              "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DATA\\Interfaces\\ICortometrajeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DATA\\Interfaces\\ICortometrajeRepository.cs",
               "RelativeDocumentMoniker": "BACKEND-NTV.DATA\\Interfaces\\ICortometrajeRepository.cs",
-              "ToolTip": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DATA\\Interfaces\\ICortometrajeRepository.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DATA\\Interfaces\\ICortometrajeRepository.cs",
               "RelativeToolTip": "BACKEND-NTV.DATA\\Interfaces\\ICortometrajeRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T19:14:54.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CortometrajeFilter.cs",
-              "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DATA\\Filters\\CortometrajeFilter.cs",
-              "RelativeDocumentMoniker": "BACKEND-NTV.DATA\\Filters\\CortometrajeFilter.cs",
-              "ToolTip": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DATA\\Filters\\CortometrajeFilter.cs",
-              "RelativeToolTip": "BACKEND-NTV.DATA\\Filters\\CortometrajeFilter.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T19:16:21.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T19:14:54.359Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "CortometrajeResultDTO.cs",
-              "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeResultDTO.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeResultDTO.cs",
               "RelativeDocumentMoniker": "BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeResultDTO.cs",
-              "ToolTip": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeResultDTO.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeResultDTO.cs",
               "RelativeToolTip": "BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeResultDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T01:24:58.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T01:24:58.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "CortometrajeDTO.cs",
-              "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeDTO.cs",
               "RelativeDocumentMoniker": "BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeDTO.cs",
-              "ToolTip": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeDTO.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeDTO.cs",
               "RelativeToolTip": "BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeDTO.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwB4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T19:11:17.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T19:11:17.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\NTV\\BACKEND-NTV\\Program.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T02:59:45.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T02:59:45.714Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IAuthRepository.cs",
-              "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DATA\\Interfaces\\IAuthRepository.cs",
-              "RelativeDocumentMoniker": "BACKEND-NTV.DATA\\Interfaces\\IAuthRepository.cs",
-              "ToolTip": "C:\\NTV\\BACKEND-NTV\\BACKEND-NTV.DATA\\Interfaces\\IAuthRepository.cs",
-              "RelativeToolTip": "BACKEND-NTV.DATA\\Interfaces\\IAuthRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Title": "CortometrajeFilter.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DATA\\Filters\\CortometrajeFilter.cs",
+              "RelativeDocumentMoniker": "BACKEND-NTV.DATA\\Filters\\CortometrajeFilter.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DATA\\Filters\\CortometrajeFilter.cs",
+              "RelativeToolTip": "BACKEND-NTV.DATA\\Filters\\CortometrajeFilter.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:04:06.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T19:16:21.63Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\NTV\\BACKEND-NTV\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\NTV\\BACKEND-NTV\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",

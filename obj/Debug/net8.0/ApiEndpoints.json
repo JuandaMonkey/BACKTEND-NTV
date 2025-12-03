@@ -1,12 +1,44 @@
 [
   {
     "ContainingType": "BACKEND_NTV.Controllers.AuthController",
-    "Method": "getUsuarios",
-    "RelativePath": "api/Auth/Listar-Usuarios",
-    "HttpMethod": "GET",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "BACKEND_NTV.DTOs.Auth.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BACKEND_NTV.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/Auth/logout",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BACKEND_NTV.Controllers.ClienteController",
+    "Method": "CrearUsuario",
+    "RelativePath": "api/Cliente/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BACKEND_NTV.DTOs.Usuario.UsuarioCreateDTO",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

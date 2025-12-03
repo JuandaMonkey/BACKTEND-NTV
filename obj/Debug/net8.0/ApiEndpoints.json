@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "ContainingType": "BACKEND_NTV.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
@@ -19,10 +20,58 @@
     "ContainingType": "BACKEND_NTV.Controllers.AuthController",
     "Method": "Logout",
     "RelativePath": "api/Auth/logout",
+=======
+    "ContainingType": "BACKEND_NTV.Controllers.CortometrajeController",
+    "Method": "PostCortometraje",
+    "RelativePath": "api/Cortometraje/Agregar-Cortometraje",
+>>>>>>> d0e8c8b6b01b4da99c48c693bf60c5565b73b7ec
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "cortometraje",
+        "Type": "BACKEND_NTV.DTOs.Cortometraje.CortometrajeCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BACKEND_NTV.Controllers.CortometrajeController",
+    "Method": "PutCortometraje",
+    "RelativePath": "api/Cortometraje/Editar-Cortometraje",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCortometraje",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "BACKEND_NTV.DTOs.Cortometraje.CortometrajeUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BACKEND_NTV.Controllers.CortometrajeController",
+    "Method": "DeleteCortometraje",
+    "RelativePath": "api/Cortometraje/Eliminar-Cortometraje",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCortometraje",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -87,6 +136,22 @@
       {
         "Name": "Take",
         "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BACKEND_NTV.Controllers.CortometrajeController",
+    "Method": "GetCortometrajes",
+    "RelativePath": "api/Cortometraje/Obtener-Cortometraje-Por-Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCortometraje",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],

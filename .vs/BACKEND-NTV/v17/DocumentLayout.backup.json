@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|c:\\users\\carlo\\onedrive\\desktop\\backend-nakistv\\backend-ntv.data\\repositories\\cortometrajerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|solutionrelative:backend-ntv.data\\repositories\\cortometrajerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,6 +38,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|c:\\users\\carlo\\onedrive\\desktop\\backend-nakistv\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+=======
+      "AbsoluteMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|c:\\ntv\\backend-ntv\\controllers\\cortometrajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF5FEEC7-4E60-4D6E-80FD-E2848A4FDE5C}|BACKEND-NTV.csproj|solutionrelative:controllers\\cortometrajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5793CB-425E-4289-9345-49038E2D5306}|BACKEND-NTV.DTOs\\BACKEND-NTV.DTOs.csproj|c:\\ntv\\backend-ntv\\backend-ntv.dtos\\cortometraje\\cortometrajeresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5793CB-425E-4289-9345-49038E2D5306}|BACKEND-NTV.DTOs\\BACKEND-NTV.DTOs.csproj|solutionrelative:backend-ntv.dtos\\cortometraje\\cortometrajeresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|c:\\ntv\\backend-ntv\\backend-ntv.data\\repositories\\cortometrajerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AFF44F-763A-4720-BDA9-DDC883DC5EA1}|BACKEND-NTV.DATA\\BACKEND-NTV.DATA.csproj|solutionrelative:backend-ntv.data\\repositories\\cortometrajerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> d0e8c8b6b01b4da99c48c693bf60c5565b73b7ec
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +59,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -62,31 +75,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "CortometrajeController.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\Controllers\\CortometrajeController.cs",
               "RelativeDocumentMoniker": "Controllers\\CortometrajeController.cs",
               "ToolTip": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\Controllers\\CortometrajeController.cs",
               "RelativeToolTip": "Controllers\\CortometrajeController.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAA8AAAAAAAAAAAAQwCAAAAAlAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAAAeAAAAAAAAAA==",
+>>>>>>> d0e8c8b6b01b4da99c48c693bf60c5565b73b7ec
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T01:17:41.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CortometrajeRepository.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DATA\\Repositories\\CortometrajeRepository.cs",
               "RelativeDocumentMoniker": "BACKEND-NTV.DATA\\Repositories\\CortometrajeRepository.cs",
               "ToolTip": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DATA\\Repositories\\CortometrajeRepository.cs",
               "RelativeToolTip": "BACKEND-NTV.DATA\\Repositories\\CortometrajeRepository.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAABUAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T00:34:41.804Z",
+=======
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwGAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T02:19:57.306Z",
+>>>>>>> d0e8c8b6b01b4da99c48c693bf60c5565b73b7ec
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 4,
               "Title": "ICortometrajeRepository.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DATA\\Interfaces\\ICortometrajeRepository.cs",
@@ -100,13 +124,17 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 1,
+>>>>>>> d0e8c8b6b01b4da99c48c693bf60c5565b73b7ec
               "Title": "CortometrajeResultDTO.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeResultDTO.cs",
               "RelativeDocumentMoniker": "BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeResultDTO.cs",
               "ToolTip": "C:\\Users\\carlo\\OneDrive\\Desktop\\BACKEND-NAKISTV\\BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeResultDTO.cs",
               "RelativeToolTip": "BACKEND-NTV.DTOs\\Cortometraje\\CortometrajeResultDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2025-11-26T01:24:58.019Z"
             },
             {
@@ -156,6 +184,10 @@
               "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-25T04:01:44.464Z"
+=======
+              "WhenOpened": "2025-11-27T02:18:07.402Z",
+              "EditorCaption": ""
+>>>>>>> d0e8c8b6b01b4da99c48c693bf60c5565b73b7ec
             }
           ]
         }
